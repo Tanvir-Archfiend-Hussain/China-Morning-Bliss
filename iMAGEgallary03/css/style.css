@@ -1,0 +1,87 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	/*font-family: sans-serif;*/
+}
+
+
+/*****************************************TOPnav********************************************/
+.main-Navbar
+{
+	width: 100%;
+	/*height: 100vh;*/
+	background-image: url("4K9A0627.jpg");
+	background-size: cover;
+}
+
+.nav-ti
+{
+	width: 100%;
+	height: 80px;
+	background-color: #f56cce;
+	line-height: 80px;
+}
+
+.nav-ti ul
+{
+	float: right;
+	margin-right: 30px;
+}
+
+.nav-ti ul li
+{
+	list-style-type: none;
+	display: inline-block;
+}
+
+.nav-ti ul li:hover
+{
+	background-color: #96bfff; 
+}
+
+.nav-ti ul li a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	padding:30px;
+}
+/*****************************************TOPnav********************************************/
+
+.backgroundDD
+{
+background:  radial-gradient(ellipse at center, rgba(204,237,17,1) 0%, rgba(204,237,17,1) 5%, rgba(250,13,175,1) 17%, rgba(204,84,4,1) 25%, rgba(242,17,242,1) 39%, rgba(82,208,240,1) 45%, rgba(245,208,22,1) 51%, rgba(64,58,242,1) 60%, rgba(48,224,32,1) 72%, rgba(232,35,232,1) 80%, rgba(76,245,222,1) 91%, rgba(76,245,222,1) 100%);;
+}
+
+h1
+{
+	text-align: center;
+	color: navy;
+	margin: 30px 0 50px;
+	font-family: 'Sriracha', cursive;
+	font-size: 60px;
+}
+
+.gallery
+{	
+	margin: 10px 50px;	
+}
+
+.gallery img
+{
+	width: 230px;
+	padding: 5px;
+	filter: grayscale();
+	transition: 1s;
+}
+
+.gallery img:hover
+{
+	filter: grayscale(0);
+	transform: scale(1.1);
+}

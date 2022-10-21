@@ -1,0 +1,128 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background: url(b361ebf1eb24d82ba7cfa5bc56e1cfe5.jpg);
+	font-family: serif;
+}
+
+/*****************************************TOPnav********************************************/
+.main-Navbar
+{
+	font-family: serif;
+	width: 100%;
+	height: 100vh;
+	background-image: url("4K9A0627.jpg");
+	background-size: cover;
+}
+
+.nav-ti
+{
+	width: 100%;
+	height: 80px;
+	background-color: #f56cce;
+	line-height: 80px;
+}
+
+.nav-ti ul
+{
+	float: right;
+	margin-right: 30px;
+}
+
+.nav-ti ul li
+{
+	list-style-type: none;
+	display: inline-block;
+}
+
+.nav-ti ul li:hover
+{
+	background-color: #96bfff; 
+}
+
+.nav-ti ul li a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	padding:30px;
+}
+/*****************************************TOPnav********************************************/
+
+.loginbox
+{
+	margin-top: 50px;
+	width: 320px;
+	height: 560px; 
+	background: linear-gradient(135deg, rgba(12,0,77,0.73) 0%, rgba(12,0,77,0.81) 27%, rgba(231,56,39,0.89) 57%, rgba(143,4,4,0.94) 76%, rgba(143,4,4,1) 96%);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 10px 60px; 
+	border-radius: 22%;
+}
+
+/**.avater
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}**/
+
+h1
+{
+	margin: 2px;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.loginbox input
+{
+	width: 100%;
+	margin-bottom: 7px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+	border: 1px;
+	border-bottom: 1px solid #fff;
+	background: white;
+	outline: none;
+	font-size: 16px; 
+	border-radius: 2px;
+}
+
+.login input[type="submit"]:hover
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: white;
+	color: #fff;
+	transition: all 0.5s ease-in; 
+}
+
+.loginbox a
+{
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 20px;
+	color: darkgrey;
+}
+
+.loginbox a:hover
+{
+	color: #f2a066;
+}
